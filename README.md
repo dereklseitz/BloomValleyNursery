@@ -1,20 +1,7 @@
-**Intro to Web Dev Final Report Template**
-
-**Directions:** Follow the directions according to the Touchstone
-Instructions document. Include your responses for all the sections
-listed under the Directions section. Remember to review the Touchstone
-instruction page for entry requirements and grading specifics.
-
-**Name:**
-
-**Derek Seitz**
-
 **Date:**
-
 **December 6, 2024**
 
-**Final Program Share Link from the IDE:**
-
+**Program Share Link from StackBlitz:**
 <https://stackblitz.com/edit/stackblitz-starters-rdsfw2?file=index.html>
 
 # **Introduction**
@@ -78,21 +65,6 @@ between modern and rustic elements:
 
 # The font sizes are responsive, with larger text for headings to create emphasis and smaller, easily readable text for body content.
 
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
 
 # **Wireframes**
 
