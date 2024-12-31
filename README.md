@@ -1,7 +1,5 @@
-**Date:**
-**December 6, 2024**
+**Share Link from StackBlitz:**
 
-**Program Share Link from StackBlitz:**
 <https://stackblitz.com/edit/stackblitz-starters-rdsfw2?file=index.html>
 
 # **Introduction**
@@ -18,7 +16,7 @@ accessibility, ease of use, and a clean, professional look, utilizing a
 color palette and typography that reflect Bloom Valley Nursery\'s
 commitment to nature and community.
 
-Color Palette and Logo Choice:
+**Color Palette and Logo Choice:**
 
 The color palette used for the website includes shades of green, light
 teal, mustard yellow, and white, carefully selected to evoke a sense of
@@ -42,7 +40,7 @@ shape of the logo image in this color as a subtle comparison to the Sun.
 The aim was to strengthen the association of Bloom Valley Nursery with
 nature and environmental sustainability.
 
-Font Color Choice:
+**Font Color Choice:**
 
 The font color choices are designed for high contrast to ensure
 readability, while also aligning with the natural and professional
@@ -54,32 +52,30 @@ aesthetic of the brand:
 -   #96BAA0 (Meadow Mist): Used for subheadings and accents, maintaining
     a soft but readable contrast.
 
-Typography Choice:
+**Typography Choice:**
 
 The typography used on the website was selected to create a balance
 between modern and rustic elements:
 
-# A serif font is used for headings and key titles, reflecting the brand's nature-based, traditional feel.
+- A serif font is used for headings and key titles, reflecting the brand's nature-based, traditional feel.
 
-# A sans-serif font is used for body text, offering clarity and readability across devices.
+- A sans-serif font is used for body text, offering clarity and readability across devices.
 
-# The font sizes are responsive, with larger text for headings to create emphasis and smaller, easily readable text for body content.
+- The font sizes are responsive, with larger text for headings to create emphasis and smaller, easily readable text for body content.
 
+#
 
 # **Wireframes**
 
 1)  **Mobile Wireframes:**
 
-![A screenshot of a computer screen Description automatically
-generated](media/image1.jpg){width="5.868055555555555in"
-height="6.805555555555555in"}
+![Mobile wireframes for the Bloom Valley Nursery Web Design](media/image1.jpg) 
 
 <https://www.figma.com/design/eUGamaGHPuZO8Jzmd6osoD/Bloom-Valley-Nursery---Mobile-Site-Wireframes?node-id=0-1&t=12mnQm94cKrRB6Mj-1>
 
 2)  **Desktop Wireframes:**
 
-![A collage of a screenshot of a website Description automatically
-generated](media/image2.jpg){width="6.5in" height="5.128472222222222in"}
+![Desktop wireframes for the Bloom Valley Nursery Web Design](media/image2.jpg)
 
 <https://www.figma.com/design/odrWEmoXr1rMRe5zMdi7h9/Bloom-Valley-Nursery---Desktop-Site-Wireframes?t=12mnQm94cKrRB6Mj-1>
 
@@ -186,28 +182,13 @@ design and their respective contrast ratios when compared against
 **#014038 (Canopy Green)**, demonstrating compliance with WCAG AAA
 standards.
 
-+--------------------+---------------+----------------+--------------+
-|                    | **#F7F7F7\    | **#96BAA0\     | **#BDD4DA\   |
-|                    | (Cloudy       | (Meadow        | (Sky         |
-|                    | Gray)**       | Mist)**        | Bloom)**     |
-+:==================:+:=============:+:==============:+:============:+
-| **Contrast Ratio** | **10.94:1**   | **5.49:1**     | **7.59:1**   |
-|                    |               |                |              |
-| **Against\         |               |                |              |
-| #014038 (Canopy    |               |                |              |
-| Green)**           |               |                |              |
-+--------------------+---------------+----------------+--------------+
-| **Font \<= 17pt**  | **PASS**      | **FAIL**       | **PASS**     |
-+--------------------+---------------+----------------+--------------+
-| **Font \>= 18pt    | **PASS**      | **PASS**       | **PASS**     |
-| -or-\              |               |                |              |
-| Bold Font \>=      |               |                |              |
-| 14pt**             |               |                |              |
-+--------------------+---------------+----------------+--------------+
-| **Icons and        | **PASS**      | **PASS**       | **PASS**     |
-| Actionable         |               |                |              |
-| Graphics**         |               |                |              |
-+--------------------+---------------+----------------+--------------+
+|                    | **#F7F7F7** (Cloudy Gray) | **#96BAA0** (Meadow Mist) | **#BDD4DA** (Sky Bloom) |
+|--------------------|---------------------------|---------------------------|-------------------------|
+| **Contrast Ratio** | **10.94:1**               | **5.49:1**                | **7.59:1**              |
+| **Against #014038** (Canopy Green) |           |                           |                         |
+| **Font <= 17pt**   | **PASS**                  | **FAIL**                  | **PASS**                |
+| **Font >= 18pt** -or- Bold Font >= 14pt** | **PASS** | **PASS** | **PASS** |
+| **Icons and Actionable Graphics** | **PASS**   | **PASS**                  | **PASS**                |
 
 **Table Key Points:**
 
@@ -277,7 +258,7 @@ were implemented to achieve RWD:
 
 # **Website Functionality**
 
-# **1. Navigation Bar:**
+1\. **Navigation Bar:**
 
 -   The navigation bar appears at the top and bottom of each webpage,
     providing consistent and intuitive access to the website\'s main
@@ -300,7 +281,7 @@ were implemented to achieve RWD:
     down and maintaining usability on smaller screens. The modal uses
     clear, high-contrast text and an easily dismissible \"OK\" button.
 
-**3. Add to Cart Feature:**
+3\. **Add to Cart Feature:**
 
 -   On the gallery page, users can add products to their shopping cart
     by clicking an \"Add to Cart\" button within each product card. The
@@ -451,88 +432,63 @@ initiatives.
 
 **Homepage:**
 
-![A screenshot of a computer Description automatically
-generated](media/image3.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of homepage above the fold](media/image3.jpeg)
 
-![A screenshot of a computer Description automatically
-generated](media/image4.jpeg){width="6.5in"
-height="4.093055555555556in"}![A screenshot of a computer Description
-automatically generated](media/image5.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of homepage above the fold showing dynamically changed content](media/image4.jpeg)
+
+![A screenshot of homepage below the fold showing dynamically changed content](media/image5.jpeg)
 
 **Subscribe feature:**
 
-![A screenshot of a computer Description automatically
-generated](media/image6.jpeg){width="6.5in"
-height="4.093055555555556in"}![A screenshot of a computer Description
-automatically generated](media/image7.jpeg){width="6.5in"
-height="4.093055555555556in"}
-
 **Subscribe feature input validation:**
+![A screenshot of validation of user input in subscribe feature](media/image6.jpeg)
 
-2)  **Gallery Page**
+![A screenshot of confirmation of newsletter subscription](media/image7.jpeg)
+
+
+
+1)  **Gallery Page**
 
 **Gallery page:**
 
-![A screenshot of a computer Description automatically
-generated](media/image8.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of the gallery page above the fold](media/image8.jpeg)
 
-![A screenshot of a computer Description automatically
-generated](media/image9.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of the gallery page below the fold](media/image9.jpeg)
 
-![A screenshot of a computer Description automatically
-generated](media/image10.jpeg){width="6.5in"
-height="4.093055555555556in"}![A screenshot of a computer Description
-automatically generated](media/image11.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of the gallery page below the fold showing dynamically changed content](media/image10.jpeg)
+
+![A second screenshot of the gallery page below the fold showing dynamically changed content](media/image11.jpeg)
 
 **Shopping cart---Add Item:**
 
-![A screenshot of a computer Description automatically
-generated](media/image12.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of alert when item is added to cart](media/image12.jpeg)
 
 **Shopping cart---View Cart (after adding an item):**
 
-![A screenshot of a computer Description automatically
-generated](media/image13.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of the view cart feature after an item was added](media/image13.jpeg)
 
 **Shopping cart---View Cart (after adding multiple items):**
 
-![A screenshot of a computer Description automatically
-generated](media/image14.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of the view cart feature with multiple items added](media/image14.jpeg)
 
 **Shopping cart---View Cart (alert message after "Clear Cart" button is
 clicked):**
 
-![A screenshot of a computer Description automatically
-generated](media/image15.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of the confirm screen before clearing the cart](media/image15.jpeg)
 
 **Shopping cart---Process Order (alert after "Process Order" button is
 clicked):**
 
-![A screenshot of a computer Description automatically
-generated](media/image16.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of the confirm screen before processing an order](media/image16.jpeg)
 
 **Shopping cart---Process Order (alert after the order is already
 processed):**
 
-![A screenshot of a computer Description automatically
-generated](media/image17.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of the confirmation that the order has been processed](media/image17.jpeg)
 
 **Shopping cart---Clear Cart (empty cart):**
 
-![A screenshot of a computer Description automatically
-generated](media/image18.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of the confirmation that cart was cleared](media/image18.jpeg)
 
 **Shopping cart---Clear Cart (alert window after clearing cart):**
 
@@ -552,7 +508,7 @@ height="4.093055555555556in"}
 generated](media/image21.jpeg){width="6.5in"
 height="4.093055555555556in"}
 
-3)  **About Us Page**
+1)  **About Us Page**
 
 **About Us page:**
 
