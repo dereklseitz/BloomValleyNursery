@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bloom Valley Nursery offers a variety of plants, garden tools, and expert gardening advice for your home and garden."
+    />
+    <script
+      src="https://kit.fontawesome.com/acb7c3b0da.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Community Events - Bloom Valley Nursery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header role="banner">
+      <div class="logo">
+        <img
+          src="images/Client1_LogoPalette2_F0C06D.png"
+          alt="Bloom Valley Nursery Logo"
+        />
+      </div>
+      <h1>Bloom Valley Nursery</h1>
+      <!-- Navigation Bar -->
+      <nav role="navigation" aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="community.html" aria-current="page" class="current-page">Community Events</a></li>
+        </ul>
+        <button
+          id="shopping-cart"
+          aria-label="Open shopping cart"
+          class="fa-solid fa-cart-shopping fa-2xl"
+        ></button>
+      </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main role="main" id="community-page">
+      <h1>Mark Your Calendars!</h1>
+      <div id="calendar-events-container">
+        <div class="calendar">
+          <iframe
+            src="https://calendar.google.com/calendar/embed?src=your_calendar_id&ctz=America/Chicago"
+            style="border: 0; width: 90vww; height: 600px" 
+            frameborder="0"
+            scrolling="no" aria-label="Google Calendar displaying upcoming events at Bloom Valley Nursery">
+          </iframe><!-- change "your_calendar_id" to an actual Google Calendar ID (Not possible due to the Client Scenario being fictional. This would require creating a fake Google account.)-->
+        </div>
+        <section class="events" aria-label="List of upcoming local events">
+          <h2>Upcoming Events</h2>
+          <div class="event-list">
+            <div id="bvn-events">
+              <h3>Events at Bloom Valley Nursery</h3>
+              <p>
+                All workshops at Bloom Valley Nursery are provided free of charge to
+                anyone interested in learning techniques and ideas for creating a
+                visually appealing living space that can be personalized to suite
+                individual needs. Registration links are provided in each Google
+                Calendar Event by clicking on the date of the event within the
+                Google Calendar on this page.
+              </p>
+              <ul>
+                <li>
+                  <strong>Gardening and Landscaping 101:</strong><br><strong>When:</strong><br> 2nd Tuesday of
+                  Every Month @ 6:30 pm.<br>Join Bethany Bloom as she shares her tips for
+                  creating a themed decor through-out the home that you will be
+                  delighted to share with your holiday guests.
+                </li>
+                <li>
+                  <strong>Deck the Halls</strong><br><strong>When:</strong> Saturday @ 10:00 am.<br>Join
+                  Nathaniel and Vincent as they guide us through picking and tending
+                  the perfect live Christmas tree for your Christmas decoration
+                  focal-point.
+                </li>
+                <li>
+                  <strong>Christmas Eve and Christmas Day</strong><br><strong>Bloom Valley
+                  Nursery will close on Christmas Eve at 8:00 pm</strong> for any last-minute
+                  shopping.<br>The nursery will remain <strong>closed until January 2nd</strong>. During
+                  this time, we will be making improvements to the nursery grounds and
+                  store with the aim of better serving our Bloom Valley neighbors,
+                  friends and family. We are excited to share the new features and changes with
+                  you in the New Year!<br><strong>Happy Holidays!!!</strong>
+                </li>
+              </ul>
+            </div>
+            <div id="community-wide">
+              <h3>Community-Wide Events</h3>
+              <p>
+                This section includes local community events for which Bloom Valley
+                Nursery is in partner with or a sponsor of. These events are
+                typically free of charge, but can include sub-events by other local
+                organizations and businesses that may not be free of charge. Check
+                with specific organizations, businesses, and the Bloom Valley
+                Chamber of Commerce for specific details that may not be provided by
+                Bloom Valley Nursery.
+              </p>
+              <ul>
+            <li>
+              <strong>Tree Lighting Ceremony</strong><br><strong>When:</strong></br>Thursday @ 6:00 pm.<br>
+              Help us kick off the Holiday festivities by joining the Bloom
+              family, along with the Bloom Valley Chamber of Commerce, the Bloom
+              Valley Garden Club, and many other local businesses and
+              organizations, as we gather <strong>in front of City Hall</strong> for the annual Tree
+              Lighting Ceremony! This event will include performances by the Bloom
+              Valley Junior and Senior High Marching Bands, a workshop for making
+              tree ornaments, the annual Chili Cook-off, and much more!
+            </li>
+          </ul>
+        </div>
+            <!-- Add more events as needed -->
+          </div>
+        </div>
+      </section>
+      <p>
+        For more details, to add events to this page, or to leave feedback,
+        <a
+          href="about.html#feedback"
+          aria-label="Go to the feedback form on the About Us page to leave feedback or inquiries."
+          >click here</a
+        > to send us a message.
+      </p>
+    </main>
+
+    <!-- Footer Section -->
+    <footer role="contentinfo">
+    <div id="newsletter-container">
+      <label for="email-input" class="hidden">Enter your email to subscribe to our newsletter</label>
+      <form id="newsletter-form">
+        <input
+          type="email"
+          id="email-input"
+          aria-label="Enter your email to Subscribe"
+          placeholder="Subscribe@BloomValleyNursery.com"
+        />
+        <button id="submit-btn" type="submit" aria-label="Submit the subscribe form">
+          Subscribe Now!
+        </button>
+      </form>
+    </div>
+    <div id="footer-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="community.html" class="current-page">Community Events</a></li>
+      </ul>
+    </div>
+    <div id="social-media">
+      <p>Check us out on social media!</p>
+      <ul class="social-icons">
+        <li id="pinterest">
+          <a href="#" aria-label="Follow us on Pinterest"
+            ><i class="fa-brands fa-square-pinterest fa-lg"></i></a></li>
+        <li id="facebook">
+          <a href="#" aria-label="Follow us on Facebook"
+            ><i class="fa-brands fa-facebook fa-lg"></i
+          ></a>
+        </li>
+        <li id="instagram">
+          <a href="#" aria-label="Follow us on Instagram"
+            ><i class="fa-brands fa-instagram fa-lg"></i
+          ></a>
+        </li>
+        <li id="twitter">
+          <a href="#" aria-label="Follow us on X (Twitter)"
+            ><i class="fa-brands fa-square-x-twitter fa-lg"></i
+          ></a>
+        </li>
+        <li id="youtube">
+          <a href="#" aria-label="View our Youtube channel"
+            ><i class="fa-brands fa-youtube fa-lg"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+    <div id="copyright">&copy 2024 Bloom Valley Nursery</div>
+  </footer>
+  <!-- Custom Modal for Newsletter Subscription -->
+  <div id="newsletter-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal" id="newsletter-close-btn">&times;</span>
+      <h2>Newsletter Subscription</h2>
+      <form id="newsletter-form">
+        <input 
+          type="email" 
+          id="email-input" 
+          placeholder="Enter your email" 
+          required 
+          aria-label="Enter your email to subscribe"
+        />
+        <button type="submit" id="subscribe-btn">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  
+  <!-- Custom Alert Modal -->
+  <div id="custom-alert" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-modal" id="alert-close-btn">&times;</span>
+      <p id="alert-message"></p>
+      <button id="alert-ok-button">OK</button>
+    </div>
+  </div>  
+
+  <!-- Modal for Shopping Cart -->
+  <div id="cart-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>Your Shopping Cart</h2>
+      <ul id="cart-items"></ul> <!-- Dynamically populated -->
+      <p id="cart-total"></p> <!-- Sub-total will appear here -->
+      <div class="modal-buttons">
+        <button id="clear-cart-modal-btn">Clear Cart</button>
+        <button id="process-order-modal-btn">Process Order</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Item Added -->
+  <div id="item-added-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close-modal" id="item-added-close">&times;</span>
+      <p id="item-added-message"></p> <!-- Dynamically set message -->
+    </div>
+  </div>
+
+  <!-- Confirmation Modal -->
+  <div id="confirmation-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close-modal" id="confirmation-close-btn">&times;</span>
+      <p id="confirmation-message"></p> <!-- Dynamic confirmation message -->
+      <button id="confirmation-confirm-btn">Confirm</button>
+      <button id="confirmation-close-btn">Close</button>
+    </div>
+  </div>
+
+  <!-- Final Confirmation Modal -->
+  <div id="final-confirmation-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close-modal" id="final-confirmation-close-btn">&times;</span>
+      <p id="final-confirmation-message"></p> <!-- Message after successful action -->
+      <button id="final-confirmation-close-btn">Close</button>
+    </div>
+  </div>
+
+    <!-- This loads after the page is read by browser -->
+    <script src="cart.js"></script>
+    <script src="newsletter.js"></script>
+  </body>
+</html>
