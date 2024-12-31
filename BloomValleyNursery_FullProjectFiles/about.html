@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bloom Valley Nursery offers a variety of plants, garden tools, and expert gardening advice for your home and garden."
+    />
+    <script
+      src="https://kit.fontawesome.com/acb7c3b0da.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>About Us - Bloom Valley Nursery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="about-page">
+    <!-- Header Section -->
+    <header role="banner">
+      <div class="logo">
+        <img
+          src="images/Client1_LogoPalette2_F0C06D.png"
+          alt="Bloom Valley Nursery Logo"/>
+      </div>
+      <h1>Bloom Valley Nursery</h1>
+      <!-- Navigation Bar -->
+      <nav role="navigation" aria-label="Main Navigation">
+         <ul>
+          <li>
+            <a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html" aria-current="page" class="current-page">About Us</a></li>
+          <li><a href="community.html">Community Events</a></li>
+        </ul>
+        <div>
+          <button
+            id="shopping-cart"
+            aria-label="Open shopping cart"
+            class="fa-solid fa-cart-shopping fa-2xl">
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main role="main" id="main-about">
+      <div id="main-top">
+        <aside
+          id="business-info"
+          aria-label="Hours of operation and contact info"
+        >
+          <h3>Contact Us</h3>
+          <div id="phone">
+            <h4><strong>Phone:</strong></h4>
+            <p>(555) 123-4567</p>
+          </div>
+          <h3>Hours of Operation</h3>
+          <div id="hours">
+            <h4><strong>Monday - Friday:</strong></h4>
+            <p>9:00 AM - 6:00 PM</p>
+            <h4><strong>Saturday & Sunday:</strong></h4>
+            <p>10:00 AM - 5:00 PM</p>
+          </div>
+        </aside>
+        <div id="story" aria-label="History of Bloom Valley Nursery">
+          <h1>The Story of Bloom Valley</h1>
+          <p>
+            Legend has it that in 1822, Benjamin Bloom, his wife Violet, and
+            their young daughter Nora stumbled upon a breathtaking valley
+            brimming with vibrant, rare flowers during their journey westward.
+            Enchanted by its beauty, they decided to settle there, abandoning
+            their plans to reach California. This picturesque haven became known
+            as Bloom Valley.
+          </p>
+          <p>
+            Today, on the very land where the Bloom family found their paradise,
+            stands Bloom Valley Nursery. Still family-owned and operated,
+            siblings Bethany, Vincent, and Nathaniel Bloom carry forward a
+            legacy of preserving and sharing the natural beauty that captivated
+            the hearts of their ancestors over two centuries ago.
+          </p>
+          <p>Though many things have changed through the years, our commitment to serving our community has remained the same. Let us help you cultivate joy, one bloom at a time!</p>
+        </div>
+      </div>
+      <div id="main-bottom">
+        <div id="feedback" aria-label="Feedback form">
+          <div id="feedback-intro">
+            <h1>We Want to Hear From You!</h1>
+            <h3>Your feedback provides us with valuable insight into where we stand in our commitment to our neighbors, friends, and the entire Bloom Valley community.</h3>
+            <p>Feel free to contact us by filling out the form below if you have any questions, concerns, or simply want to tell us how we can better serve you in the future. You are also welcome to give us a call at the number above if you need to speak with someone directly. Our friendly staff can help answer your questions or guide you in placing custom orders as well!</p>
+          </div>
+          <div id="feedback-form">
+            <form action="#" method="POST">
+              <div id="customer-info">
+                <div id="name-field">
+                  <label for="name">Name:</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    aria-label="Enter your name here" placeholder="Your Name"
+                    required/>
+                </div>
+                <div id="phone-field">
+                  <label for="tel">Phone Number:</label>
+                  <input
+                    type="tel"
+                    id="tel"
+                    name="telephone"
+                    aria-label="Enter your contact phone number here" placeholder="Your Phone Number"
+                    required/>
+                </div>
+                <div id="email-field">  
+                  <label for="email">Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    aria-label="Enter your contact email here" placeholder="user@domain.com"
+                    required/>
+                </div>
+              </div>
+              <div id="customer-message">
+                  <div id="message-field">
+                  <label for="message">Message:</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    aria-label="Enter feedback or inquiries here" placeholder="Enter feedback or inquiries here..."
+                    required>
+                  </textarea>
+                </div>
+                <div id="form-submit-btn">
+                  <button
+                    id="form-submit"
+                    type="submit"
+                    aria-label="Submit feedback or inquiry"
+                  >Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer role="contentinfo">
+    <div id="newsletter-container">
+      <label for="email-input" class="hidden">Enter your email to subscribe to our newsletter</label>
+      <form id="newsletter-form">
+        <input
+          type="email"
+          id="email-input"
+          aria-label="Enter your email to Subscribe"
+          placeholder="Subscribe@BloomValleyNursery.com"
+        />
+        <button id="submit-btn" type="submit" aria-label="Submit the subscribe form">
+          Subscribe Now!
+        </button>
+      </form>
+    </div>
+    <div id="footer-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html" class="current-page">About Us</a></li>
+        <li><a href="community.html">Community Events</a></li>
+      </ul>
+    </div>
+    <div id="social-media">
+      <p>Check us out on social media!</p>
+      <ul class="social-icons">
+        <li id="pinterest">
+          <a href="#" aria-label="Follow us on Pinterest"
+            ><i class="fa-brands fa-square-pinterest fa-lg"></i></a></li>
+        <li id="facebook">
+          <a href="#" aria-label="Follow us on Facebook"
+            ><i class="fa-brands fa-facebook fa-lg"></i
+          ></a>
+        </li>
+        <li id="instagram">
+          <a href="#" aria-label="Follow us on Instagram"
+            ><i class="fa-brands fa-instagram fa-lg"></i
+          ></a>
+        </li>
+        <li id="twitter">
+          <a href="#" aria-label="Follow us on X (Twitter)"
+            ><i class="fa-brands fa-square-x-twitter fa-lg"></i
+          ></a>
+        </li>
+        <li id="youtube">
+          <a href="#" aria-label="View our Youtube channel"
+            ><i class="fa-brands fa-youtube fa-lg"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+    <div id="copyright">&copy 2024 Bloom Valley Nursery</div>
+  </footer>
+  <!-- Custom Modal for Newsletter Subscription -->
+  <div id="newsletter-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal" id="newsletter-close-btn">&times;</span>
+      <h2>Newsletter Subscription</h2>
+      <form id="newsletter-form">
+        <input 
+          type="email" 
+          id="email-input" 
+          placeholder="Enter your email" 
+          required 
+          aria-label="Enter your email to subscribe"
+        />
+        <button type="submit" id="subscribe-btn">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  
+  <!-- Custom Alert Modal -->
+  <div id="custom-alert" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-modal" id="alert-close-btn">&times;</span>
+      <p id="alert-message"></p>
+      <button id="alert-ok-button">OK</button>
+    </div>
+  </div>  
+
+  <!-- Modal for Shopping Cart -->
+  <div id="cart-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>Your Shopping Cart</h2>
+      <ul id="cart-items"></ul> <!-- Dynamically populated -->
+      <p id="cart-total"></p> <!-- Sub-total will appear here -->
+      <div class="modal-buttons">
+        <button id="clear-cart-modal-btn">Clear Cart</button>
+        <button id="process-order-modal-btn">Process Order</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Item Added -->
+  <div id="item-added-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close-modal" id="item-added-close">&times;</span>
+      <p id="item-added-message"></p> <!-- Dynamically set message -->
+    </div>
+  </div>
+
+  <!-- Confirmation Modal -->
+  <div id="confirmation-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close-modal" id="confirmation-close-btn">&times;</span>
+      <p id="confirmation-message"></p> <!-- Dynamic confirmation message -->
+      <button id="confirmation-confirm-btn">Confirm</button>
+      <button id="confirmation-close-btn">Close</button>
+    </div>
+  </div>
+
+  <!-- Final Confirmation Modal -->
+  <div id="final-confirmation-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span class="close-modal" id="final-confirmation-close-btn">&times;</span>
+      <p id="final-confirmation-message"></p> <!-- Message after successful action -->
+      <button id="final-confirmation-close-btn">Close</button>
+    </div>
+  </div>
+
+    <!-- This loads after the page is read by browser -->
+    <script src="cart.js"></script>
+    <script src="newsletter.js"></script>
+    <script src="feedback.js"></script>
+  </body>
+</html>
