@@ -492,95 +492,54 @@ processed):**
 
 **Shopping cart---Clear Cart (alert window after clearing cart):**
 
-![A screenshot of a computer Description automatically
-generated](media/image19.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of empty cart after clearing](media/image19.jpeg)
 
 **SessionStorage (before processing order):**
 
-![A screenshot of a computer Description automatically
-generated](media/image20.jpeg){width="6.5in"
-height="4.093055555555556in"}
-
+![A screenshot of sessionStorage with an item in cart](media/image20.jpeg)
 **SessionStorage (after processing order):**
 
-![A screenshot of a computer Description automatically
-generated](media/image21.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of sessionStorage as order is processed](media/image21.jpeg)
 
 1)  **About Us Page**
 
 **About Us page:**
 
-![A screenshot of a computer Description automatically
-generated](media/image22.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of About Us page above the fold](media/image22.jpeg)
 
-![A screenshot of a computer Description automatically
-generated](media/image23.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of customer feedback form](media/image23.jpeg)
 
-![A screenshot of a computer Description automatically
-generated](media/image24.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of About Us page below the fold](media/image24.jpeg)
 
 **Contact Us form:**
 
 **LocalStorage---after form submission:**
 
-![A screenshot of a computer Description automatically
-generated](media/image25.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of localStorage after feedback form submission](media/image25.jpeg)
 
 **Contact Us form---input validation:**
 
-![A screenshot of a computer Description automatically
-generated](media/image26.jpeg){width="6.5in"
-height="4.093055555555556in"}![A screenshot of a computer Description
-automatically generated](media/image27.jpeg){width="6.5in"
-height="4.093055555555556in"}![A screenshot of a computer Description
-automatically generated](media/image28.jpeg){width="6.5in"
-height="4.093055555555556in"}![A screenshot of a computer Description
-automatically generated](media/image29.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of phone number input validation in feedback form](media/image26.jpeg)
+![A screenshot of name input validation in feedback form](media/image27.jpeg)
+![A screenshot of email input validation in feedback form](media/image28.jpeg)
+![A second screenshot of email input validation in feedback form](media/image29.jpeg)
 
 4)  **Custom Page**
 
-![A screenshot of a computer Description automatically
-generated](media/image30.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of the Community page above the fold](media/image30.jpeg)
 
-![A screenshot of a computer Description automatically
-generated](media/image31.jpeg){width="6.5in"
-height="4.093055555555556in"}
+![A screenshot of the Community page mid-page](media/image31.jpeg)
 
-![A screenshot of a computer Description automatically
-generated](media/image32.jpeg){width="6.5in"
-height="4.093055555555556in"}
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
+![A screenshot of the Community page footer](media/image32.jpeg)
 
 # Description of Issues
 
-# **Current issues:**
+## **Current issues:**
 
-# 1) Add-to-Cart Alert I noticed while taking screenshots of the necessary components and functionalities of the Gallery Page that the alert which appears each time an item is added to the cart has reverted to the browser's default pop-up alert. 
+# 1) Add-to-Cart Alert
+ I noticed while taking screenshots of the necessary components and functionalities of the Gallery Page that the alert which appears each time an item is added to the cart has reverted to the browser's default pop-up alert. 
 
-#  All other issues identified during the development process have been resolved. This includes addressing accessibility concerns, functionality problems, and design adjustments.
-
-**Major redesign and project overhaul:**
+## **Major redesign and project overhaul:**
 
 -   Approximately three weeks into the project, after running into
     problem after problem with the CSS and JavaScript aspects of the
@@ -593,7 +552,7 @@ height="4.093055555555556in"}
     overhaul within one week, ensuring all functionality was preserved
     while improving accessibility and visual appeal.
 
-**Previous issues fixed:**
+## **Previous issues fixed:**
 
 -   **Font contrast problems**: Adjustments were made to ensure all text
     has sufficient contrast against the background, improving
