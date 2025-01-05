@@ -1,10 +1,41 @@
-**Share Link from StackBlitz:**
 
-<https://stackblitz.com/edit/stackblitz-starters-rdsfw2?file=index.html>
+# **Bloom Valley Nursery Web Design**
+
+### **Table of Contents**
+
+-   [Introduction](#introduction)
+    -   [Color Palette & Logo Choice](#color-palette--logo-choice)
+    -   [Font Color Choice](#font-color-choice)
+    -   [Typography Choice](#typography-choice)
+-   [Wireframes](#wireframes)
+-   [Website Structure & Content](#website-structure--content)
+    -   [Homepage](#homepage)
+    -   [Gallery Page](#gallery-page)
+    -   [About Us Page](#about-us-page)
+    -   [Community Events Page](#community-events-page)
+-   [Website Design & Styling](#website-design--styling)
+    -   [Overall Design](#overall-design)
+    -   [Accessibility](#accessibility)
+    -   [Table 1: Contrast Ratio](#table-1-contrast-ratio)
+    -   [Responsive Web Design](#responsive-web-design)
+-   [Website Functionality](#website-functionality)
+-   [Website Data Storage](#website-data-storage)
+-   [Customization](#customization)
+-   [Screenshots of Rendered Pages](#screenshots-of-rendered-pages)
+    -   [1. Homepage Screenshots](#1-homepage-screenshots)
+    -   [2. Gallery Screenshots](#2-gallery-screenshots)
+    -   [3. About Us Screenshots](#3-about-us-screenshots)
+    -   [4. Community Events Screenshot](#4-community-events-screenshots)
+-   [Description of Issues & Lessons Learned](#description-of-issues--lessons-learned)
+    - [Current Issues](#current-issues)
+    - [Previous Issues Fixed](#previous-issues-fixed)
+    - [Major Redesign & Project Overhaul](#major-redesign--project-overhaul)
+    
+<br> 
 
 # **Introduction**
 
-<p style="font-size: 1.5em; font-weight: bold;">Client name:  Bloom Valley Nursery</p>
+**Client name:  Bloom Valley Nursery**
 
 The Bloom Valley Nursery website was designed to create an inviting,
 user-friendly experience for customers looking for plants, garden tools,
@@ -16,7 +47,7 @@ accessibility, ease of use, and a clean, professional look, utilizing a
 color palette and typography that reflect Bloom Valley Nursery\'s
 commitment to nature and community.
 
-<p style="font-size: 1.17em; font-weight: bold;">Color Palette and Logo Choice:</p>
+##  **Color Palette & Logo Choice**
 
 The color palette used for the website includes shades of green, light
 teal, mustard yellow, and white, carefully selected to evoke a sense of
@@ -40,7 +71,7 @@ shape of the logo image in this color as a subtle comparison to the Sun.
 The aim was to strengthen the association of Bloom Valley Nursery with
 nature and environmental sustainability.
 
-<p style="font-size: 1.17em; font-weight: bold;">Font Color Choice:</p>
+##  **Font Color Choice**
 
 The font color choices are designed for high contrast to ensure
 readability, while also aligning with the natural and professional
@@ -52,7 +83,7 @@ aesthetic of the brand:
 -   #96BAA0 (Meadow Mist): Used for subheadings and accents, maintaining
     a soft but readable contrast.
 
-<p style="font-size: 1.17em; font-weight: bold;">Typography Choice:</p>
+## **Typography Choice**
 
 The typography used on the website was selected to create a balance
 between modern and rustic elements:
@@ -63,34 +94,33 @@ between modern and rustic elements:
 
 - The font sizes are responsive, with larger text for headings to create emphasis and smaller, easily readable text for body content.
 
-<br><br>
-
-# **Wireframes**
-
-<p style="font-size: 1.17em; font-weight: bold;">1. Mobile Wireframes</p>
-
-![Mobile wireframes for the Bloom Valley Nursery Web Design](media/image1.jpg) 
-
-<https://www.figma.com/design/eUGamaGHPuZO8Jzmd6osoD/Bloom-Valley-Nursery---Mobile-Site-Wireframes?node-id=0-1&t=12mnQm94cKrRB6Mj-1>
-
-<p style="font-size: 1.17em; font-weight: bold;">2. Desktop Wireframes</p>
-
-![Desktop wireframes for the Bloom Valley Nursery Web Design](media/image2.jpg)
-
-<https://www.figma.com/design/odrWEmoXr1rMRe5zMdi7h9/Bloom-Valley-Nursery---Desktop-Site-Wireframes?t=12mnQm94cKrRB6Mj-1>
+[Back to Top](#table-of-contents)
 
 <br>
 
-# **Website Structure and Content**
+# **Wireframes**
+
+### **1. Mobile Wireframes**
+
+![Mobile wireframes for the Bloom Valley Nursery Web Design](media/image1.jpg) 
+
+
+
+### **2. Desktop Wireframes**
+
+![Desktop wireframes for the Bloom Valley Nursery Web Design](media/image2.jpg)
+
+[Back to Top](#table-of-contents)
+
+<br>
+
+# **Website Structure & Content**
 
 The website is structured to provide an intuitive and informative
 experience for users, with clear navigation options and easily
 accessible content related to Bloom Valley Nursery\'s offerings.
 
-<p style="font-size: 1.5em; font-weight: bold;">Home Page</p>[**Click Here for the
-Homepage**](https://stackblitz.com/edit/stackblitz-starters-rdsfw2?file=index.html)
-
-The homepage features:
+## **Homepage**
 
 -   An auto-cycling **Featured Items** section showcasing items
     available for sale.
@@ -105,10 +135,9 @@ The homepage features:
 -   Navigation to the **Gallery Page** via category-specific links,
     allowing users to explore products by category.
 
-<p style="font-size: 1.5em; font-weight: bold;">2. Gallery Page</p> [Click Here for the Gallery
-Page](https://stackblitz.com/edit/stackblitz-starters-rdsfw2?file=gallery.html)**
 
-The Gallery Page features:
+
+## **Gallery Page**
 
 -   A Product Carousel where users can scroll through product cards,
     each displaying an image, description, and price, along with an
@@ -121,10 +150,9 @@ The Gallery Page features:
     modal. A confirmation dialogue ensures users are aware before
     clearing their cart or processing their order.
 
-<p style="font-size: 1.5em; font-weight: bold;">3. About Us Page:</p> [Click Here for the About Us
-Page](https://stackblitz.com/edit/stackblitz-starters-rdsfw2?file=about.html)**
 
-The About Us Page features:
+
+## **About Us Pages**
 
 -   Information about Bloom Valley Nursery's mission, commitment to
     community, and business details (e.g., phone number and business
@@ -134,10 +162,9 @@ The About Us Page features:
     feedback, with input validation in place to ensure all fields are
     properly completed before submission.
 
-<p style="font-size: 1.5em; font-weight: bold;">4. Custom Page:</p> [Click Here for the Community Events
-Page](https://stackblitz.com/edit/stackblitz-starters-rdsfw2?file=community.html)**
 
-The Community Events Page features:
+
+## **Community Events Page**
 
 -   An interactive Google Calendar embedded on the page to display
     upcoming events.
@@ -150,11 +177,13 @@ The Community Events Page features:
     Nursery participates, along with details on how customers can
     inquire for more information.
 
+[Back to Top](#table-of-contents)
+
 <br>
 
-# **Website Design and Styling**
+# **Website Design & Styling**
 
--   **Overall Design:**
+### **Overall Design**
 
 The overall design reflects Bloom Valley Nursery's brand values by using
 a combination of natural colors and modern typography. Sections are
@@ -164,7 +193,7 @@ visually appealing and functional design. The layout is intuitive, with
 clearly marked sections for the nursery's products, services, and
 community engagement.
 
--   **Accessibility:**
+### **Accessibility**
 
 Accessibility is the foundation on which the Bloom Valley Nursery
 website was built. To ensure the highest level of accessibility for all
@@ -182,13 +211,15 @@ standards.
 
 <br>
 
-|                    | **#F7F7F7** (Cloudy Gray) | **#96BAA0** (Meadow Mist) | **#BDD4DA** (Sky Bloom) |
-|--------------------|---------------------------|---------------------------|-------------------------|
-| **Contrast Ratio** | **10.94:1**               | **5.49:1**                | **7.59:1**              |
-| **Against #014038** (Canopy Green) |           |                           |                         |
-| **Font <= 17pt**   | **PASS**                  | **FAIL**                  | **PASS**                |
-| **Font >= 18pt** -or- Bold Font >= 14pt** | **PASS** | **PASS** | **PASS** |
-| **Icons and Actionable Graphics** | **PASS**   | **PASS**                  | **PASS**                |
+### **Table 1: Contrast Ratio**
+
+**Contrast Ratio Against #014038 (Canopy Green)**
+|                    |  | **#F7F7F7** (Cloudy Gray) | **#96BAA0** (Meadow Mist) | **#BDD4DA** (Sky Bloom) |
+|--------------------|--|---------------------------|---------------------------|-------------------------|
+| **Contrast Ratio** |  | **10.94:1**               | **5.49:1**                | **7.59:1**              |
+| **Font <= 17pt**   |  | **PASS**                  | **FAIL**                  | **PASS**                |
+| **Font >= 18pt -or- Bold Font >= 14pt** |  | **PASS** | **PASS** | **PASS** |
+| **Icons and Actionable Graphics** |  | **PASS**   | **PASS**                  | **PASS**                |
 
 <br>
 
@@ -219,9 +250,8 @@ standards.
         headlines. This contrast ensures both readability and a
         cohesive, intuitive design theme.
 
-<!-- -->
 
--   **Responsive Web Design:**
+### **Responsive Web Design:**
 
 The Bloom Valley Nursery website incorporates responsive web design
 (RWD) principles to ensure it is functional and aesthetically pleasing
@@ -257,6 +287,9 @@ were implemented to achieve RWD:
         proportionally and never exceed the width of their parent
         containers. This prevents layout breaking on smaller screens
         while maintaining image quality.
+
+
+[Back to Top](#table-of-contents)
 
 <br>
 
@@ -321,6 +354,8 @@ were implemented to achieve RWD:
 -   Upon successful submission, a custom modal confirms the form was
     sent. This feature demonstrates accessibility and responsiveness, as
     the form is fully functional across devices and screen sizes.
+
+[Back to Top](#table-of-contents)
 
 <br>
 
@@ -400,6 +435,8 @@ persist user submissions temporarily. Key functionalities include:
 Using localStorage ensures user data persists beyond the current
 session, facilitating communication and operational follow-ups.
 
+[Back to Top](#table-of-contents)
+
 <br>
 
 # **Customization**
@@ -433,13 +470,15 @@ This page strengthens the nursery\'s community-focused image by
 emphasizing its role as both an educator and a supporter of local
 initiatives.
 
+[Back to Top](#table-of-contents)
+
 <br>
 
 # **Screenshots of Rendered Webpages**
 
-<p style="font-size: 1.5em; font-weight: bold;">1.  Homepage</p>
+## **1. Homepage Screenshots**
 
-<p style="font-size: 1.17em; font-weight: bold;">Homepage:</p>
+**Homepage:**
 
 ![A screenshot of homepage above the fold](media/image3.jpeg)
 
@@ -455,10 +494,12 @@ initiatives.
 
 ![A screenshot of confirmation of newsletter subscription](media/image7.jpeg)
 
+[Back to Top](#table-of-contents)
 
-<p style="font-size: 1.5em; font-weight: bold;">2.  Gallery Page</p>
 
-**Gallery page:**
+## **2. Gallery Screenshots**
+
+**Gallery Page:**
 
 ![A screenshot of the gallery page above the fold](media/image8.jpeg)
 
@@ -472,34 +513,23 @@ initiatives.
 
 ![A screenshot of alert when item is added to cart](media/image12.jpeg)
 
-**Shopping cart---View Cart (after adding an item):**
+**Shopping cart---View Cart Modals:**
 
 ![A screenshot of the view cart feature after an item was added](media/image13.jpeg)
 
-**Shopping cart---View Cart (after adding multiple items):**
-
 ![A screenshot of the view cart feature with multiple items added](media/image14.jpeg)
-
-**Shopping cart---View Cart (alert message after "Clear Cart" button is
-clicked):**
 
 ![A screenshot of the confirm screen before clearing the cart](media/image15.jpeg)
 
-**Shopping cart---Process Order (alert after "Process Order" button is
-clicked):**
+**Shopping cart - Process Order Modals:**
 
 ![A screenshot of the confirm screen before processing an order](media/image16.jpeg)
 
-**Shopping cart---Process Order (alert after the order is already
-processed):**
-
 ![A screenshot of the confirmation that the order has been processed](media/image17.jpeg)
 
-**Shopping cart---Clear Cart (empty cart):**
+**Shopping cart - Clear Cart Modals:**
 
 ![A screenshot of the confirmation that cart was cleared](media/image18.jpeg)
-
-**Shopping cart---Clear Cart (alert window after clearing cart):**
 
 ![A screenshot of empty cart after clearing](media/image19.jpeg)
 
@@ -510,7 +540,10 @@ processed):**
 
 ![A screenshot of sessionStorage as order is processed](media/image21.jpeg)
 
-<p style="font-size: 1.5em; font-weight: bold;">3.  About Us</p>
+[Back to Top](#table-of-contents)
+
+
+## **3. About Us Screenshots**
 
 **About Us page:**
 
@@ -529,11 +562,19 @@ processed):**
 **Contact Us form---input validation:**
 
 ![A screenshot of phone number input validation in feedback form](media/image26.jpeg)
+
 ![A screenshot of name input validation in feedback form](media/image27.jpeg)
+
 ![A screenshot of email input validation in feedback form](media/image28.jpeg)
+
 ![A second screenshot of email input validation in feedback form](media/image29.jpeg)
 
-<p style="font-size: 1.5em; font-weight: bold;">4.  Community Events</p>
+[Back to Top](#table-of-contents)
+
+
+## **4. Community Events Screenshots**
+
+**Community Events Page:**
 
 ![A screenshot of the Community Events page above the fold](media/image30.jpeg)
 
@@ -541,20 +582,18 @@ processed):**
 
 ![A screenshot of the Community Events page footer](media/image32.jpeg)
 
+[Back to Top](#table-of-contents)
 <br>
 
 # Description of Issues & Lessons Learned
 
-<p style="font-size: 1.5em; font-weight: bold;">Current issues:</p>
+### **Current Known Issues**
 
--   **Add-to-Cart Alert:** I noticed while taking screenshots of the necessary 
-    components and functionalities of the Gallery Page that the alert which 
-    appears each time an item is added to the cart has reverted to the browser's 
-    default pop-up alert. 
+-   **Add-to-Cart Alert**: I noticed while taking screenshots of the necessary components and functionalities of the Gallery Page that the alert which appears each time an item is added to the cart has reverted to the browser's default pop-up alert. 
 
 <br>
 
-<p style="font-size: 1.5em; font-weight: bold;">Previous issues fixed:</p>
+### **Previous Issues Fixed**
 
 -   **Font contrast problems**: Adjustments were made to ensure all text
     has sufficient contrast against the background, improving
@@ -575,7 +614,7 @@ processed):**
 
 <br>
 
-<p style="font-size: 1.5em; font-weight: bold;">Major redesign and project overhaul:</p>
+### **Major Redesign & Project Overhaul**
 
 -   Approximately three weeks into the project, after running into
     problem after problem with the CSS and JavaScript aspects of the
@@ -587,3 +626,6 @@ processed):**
 -   Despite this major change, I successfully completed the entire
     overhaul in one week, ensuring the intended functionality of the original design was preserved
     while improving accessibility and visual appeal.
+
+[Back to Top](#table-of-contents)
+
