@@ -1,19 +1,22 @@
 // Gallery Carousel .js
 const products = {
   trees: [
-    { id: 1, name: "Maple Tree", description: "Beautiful maple tree.", price: 55.00, image: "images/trees/MapleTree.png" },
-    { id: 2, name: "Birch Tree", description: "Sturdy birch tree.", price: 45.00, image: "images/trees/BirchTree.png" },
-    { id: 3, name: "Apple Tree", description: "Fruitful apple tree.", price: 35.00, image: "images/trees/AppleTree.png" }
+    { id: 1, name: "Crepe Mertyl Tree", description: "Beautiful Crepe Mertyl tree.", price: 55.00, image: "images/trees/crepe-mertyl.jpg" },
+    { id: 2, name: "Silver Birch Tree", description: "Sturdy Silver Birch tree.", price: 45.00, image: "images/trees/silver-birch.jpg" },
+    { id: 3, name: "Apple Tree", description: "Fruitful apple tree.", price: 35.00, image: "images/trees/apple-tree.jpg" },
+    { id: 4, name: "Potted Spruce Tree", description: "Miniature Spruce in a white planter.", price: 35.00, image: "images/trees/potted-spruce.jpg" }
   ],
   indoor: [
-    { id: 4, name: "Aloe Plant", description: "Thrives with 6-8 hours of direct sunlight a day.", price: 15.00, image: "images/indoor/AloePlant.png" },
-    { id: 5, name: "Spider Plant", description: "Low-maintenance and perfect for spaces with lots of natural light.", price: 12.50, image: "images/indoor/SpiderPlant.png" },
-    { id: 6, name: "String-of-Pearls Plant", description: "Best placed in east-facing windows or on shaded patios and balconies.", price: 20.00, image: "images/indoor/StringofPearls.png" }
+    { id: 5, name: "Aloe Plant", description: "Thrives with 6-8 hours of direct sunlight a day.", price: 15.00, image: "images/indoor/aloe-plant.jpg" },
+    { id: 6, name: "Peperonia Plant", description: "Low-maintenance and perfect for spaces with lots of natural light.", price: 12.50, image: "images/indoor/peperonia.jpg" },
+    { id: 7, name: "String-of-Pearls Plant", description: "Best placed in east-facing windows or on shaded patios and balconies.", price: 20.00, image: "images/indoor/string-of-pearls.jpg" }
+    { id: 12, name: "Venus Fly Trap", description: "Perfect for young botanists or your fly problem!", price: 12.50, image: "images/indoor/venus-fly-trap.jpg"}
   ],
   tools: [
-    { id: 7, name: "Watering Can", description: "Galvanized aluminum watering can.", price: 15.00, image: "images/accessories/WateringCan.png" },
-    { id: 8, name: "Potting Soil", description: "Premium-blend of nutrient-rich potting soil - 10 lb bag.", price: 8.00, image: "images/accessories/PottingSoil.png" },
-    { id: 9, name: "Bird House", description: "Handmade wooden bird house for hanging or mounting.", price: 11.00, image: "images/accessories/BirdHouse.png" }
+    { id: 8, name: "Watering Cas", description: "Galvanized aluminum watering cans (x2).", price: 25.00, image: "images/tools/watering-cans.jpg" },
+    { id: 9, name: "Potting Soil", description: "Premium-blend of nutrient-rich potting soil - 10 lb bag.", price: 8.00, image: "images/tools/potting-soil.png" },
+    { id: 10, name: "Bird House", description: "Handmade wooden bird house for hanging or mounting.", price: 11.00, image: "images/tools/birdhouse.jpg" }
+    { id: 11, name: "Gardening Tools", description: "Wooden handled gardening tools.", price: 20.00, image: "images/tools/gardening-tools.jpg"}
   ]
 };
 
