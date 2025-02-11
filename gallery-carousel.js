@@ -9,13 +9,13 @@ const products = {
   indoor: [
     { id: 5, name: "Aloe Plant", description: "Thrives with 6-8 hours of direct sunlight a day.", price: 15.00, image: "images/indoor/aloe-plant.jpg" },
     { id: 6, name: "Peperonia Plant", description: "Low-maintenance and perfect for spaces with lots of natural light.", price: 12.50, image: "images/indoor/peperonia.jpg" },
-    { id: 7, name: "String-of-Pearls Plant", description: "Best placed in east-facing windows or on shaded patios and balconies.", price: 20.00, image: "images/indoor/string-of-pearls.jpg" }
+    { id: 7, name: "String-of-Pearls Plant", description: "Best placed in east-facing windows or on shaded patios and balconies.", price: 20.00, image: "images/indoor/string-of-pearls.jpg" },
     { id: 12, name: "Venus Fly Trap", description: "Perfect for young botanists or your fly problem!", price: 12.50, image: "images/indoor/venus-fly-trap.jpg"}
   ],
   tools: [
-    { id: 8, name: "Watering Cas", description: "Galvanized aluminum watering cans (x2).", price: 25.00, image: "images/tools/watering-cans.jpg" },
+    { id: 8, name: "Watering Cans", description: "Galvanized aluminum watering cans (x2).", price: 25.00, image: "images/tools/watering-cans.jpg" },
     { id: 9, name: "Potting Soil", description: "Premium-blend of nutrient-rich potting soil - 10 lb bag.", price: 8.00, image: "images/tools/potting-soil.png" },
-    { id: 10, name: "Bird House", description: "Handmade wooden bird house for hanging or mounting.", price: 11.00, image: "images/tools/birdhouse.jpg" }
+    { id: 10, name: "Bird House", description: "Handmade wooden bird house for hanging or mounting.", price: 11.00, image: "images/tools/birdhouse.jpg" },
     { id: 11, name: "Gardening Tools", description: "Wooden handled gardening tools.", price: 20.00, image: "images/tools/gardening-tools.jpg"}
   ]
 };
