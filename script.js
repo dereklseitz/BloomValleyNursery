@@ -1,106 +1,126 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Shopper Perks Carousel
-  const perks = document.querySelectorAll(".perk-item");
-  let currentIndexPerks = 0;
+    // ================== DEMO NOTICE MODAL ==================
+    if (!sessionStorage.getItem("demoNoticeAcknowledged")) {
+        let modal = document.createElement("div");
+        modal.id = "demoModal";
+        modal.style.position = "fixed";
+        modal.style.left = "0";
+        modal.style.top = "0";
+        modal.style.width = "100%";
+        modal.style.height = "100%";
+        modal.style.background = "rgba(0, 0, 0, 0.7)";
+        modal.style.display = "flex";
+        modal.style.alignItems = "center";
+        modal.style.justifyContent = "center";
+        modal.style.zIndex = "1000";
 
-  function showNextPerk() {
-    // Hide all perks
-    perks.forEach(perk => {
-      perk.classList.remove("visible"); // Hide by removing 'visible' class
-      perk.style.display = "none"; // Set display to none
-    });
+        let modalContent = document.createElement("div");
+        modalContent.style.background = "white";
+        modalContent.style.padding = "20px";
+        modalContent.style.borderRadius = "10px";
+        modalContent.style.textAlign = "center";
+        modalContent.style.width = "80%";
+        modalContent.style.maxWidth = "400px";
 
-    // Show the current perk
-    perks[currentIndexPerks].classList.add("visible"); // Show current perk by adding 'visible' class
-    perks[currentIndexPerks].style.display = "block"; // Explicitly set display to block
+        let heading = document.createElement("h2");
+        heading.innerText = "Demo Notice";
 
-    console.log(`Showing perk ${currentIndexPerks}`); // Debugging line
+        let message = document.createElement("p");
+        message.innerText =
+            "This site is for demonstration purposes only and is not a real e-commerce store. No purchases can be made.";
 
-    // Move to the next perk, loop back to the start if at the end
-    currentIndexPerks = (currentIndexPerks + 1) % perks.length;
-  }
+        let closeButton = document.createElement("button");
+        closeButton.innerText = "I Understand";
+        closeButton.style.padding = "10px 20px";
+        closeButton.style.marginTop = "15px";
+        closeButton.style.border = "none";
+        closeButton.style.background = "#007bff";
+        closeButton.style.color = "white";
+        closeButton.style.fontSize = "16px";
+        closeButton.style.cursor = "pointer";
+        closeButton.style.borderRadius = "5px";
 
-  // Show the first perk initially
-  showNextPerk();
+        closeButton.addEventListener("click", function () {
+            modal.style.display = "none";
+            sessionStorage.setItem("demoNoticeAcknowledged", "true");
+        });
 
-  // Set an interval to cycle through the perks every 2.25 seconds (2250ms)
-  setInterval(showNextPerk, 2250);
+        modalContent.appendChild(heading);
+        modalContent.appendChild(message);
+        modalContent.appendChild(closeButton);
+        modal.appendChild(modalContent);
+        document.body.appendChild(modal);
+    }
 
-  // Customer Highlights Carousel
-  const testimonials = document.querySelectorAll(".testimonial");
-  let currentIndexTestimonials = 0;
+    // ================== SHOPPER PERKS CAROUSEL ==================
+    const perks = document.querySelectorAll(".perk-item");
+    let currentIndexPerks = 0;
 
-  console.log("Testimonials found: ", testimonials.length); // Debugging line
+    function showNextPerk() {
+        perks.forEach(perk => {
+            perk.classList.remove("visible");
+            perk.style.display = "none";
+        });
 
-  function showNextTestimonial() {
-    // Hide all testimonials
-    testimonials.forEach(testimonial => {
-      testimonial.classList.remove("visible"); // Remove 'visible' class
-      testimonial.style.display = "none"; // Set display to none
-    });
+        perks[currentIndexPerks].classList.add("visible");
+        perks[currentIndexPerks].style.display = "block";
 
-    // Show the current testimonial
-    testimonials[currentIndexTestimonials].classList.add("visible"); // Add 'visible' class to show current testimonial
-    testimonials[currentIndexTestimonials].style.display = "block"; // Explicitly set display to block
+        currentIndexPerks = (currentIndexPerks + 1) % perks.length;
+    }
 
-    console.log(`Showing testimonial ${currentIndexTestimonials}`); // Debugging line
+    showNextPerk();
+    setInterval(showNextPerk, 2250);
 
-    // Move to the next testimonial, loop back to the start if at the end
-    currentIndexTestimonials = (currentIndexTestimonials + 1) % testimonials.length;
-  }
+    // ================== CUSTOMER HIGHLIGHTS CAROUSEL ==================
+    const testimonials = document.querySelectorAll(".testimonial");
+    let currentIndexTestimonials = 0;
 
-  // Show the first testimonial initially
-  showNextTestimonial();
+    function showNextTestimonial() {
+        testimonials.forEach(testimonial => {
+            testimonial.classList.remove("visible");
+            testimonial.style.display = "none";
+        });
 
-  // Set an interval to cycle through the testimonials every 3.5 seconds (3500ms)
-  setInterval(showNextTestimonial, 3500);
+        testimonials[currentIndexTestimonials].classList.add("visible");
+        testimonials[currentIndexTestimonials].style.display = "block";
 
-  // Featured Items Carousel
-  const featuredItems = document.querySelectorAll("#featured-images .featured-item");
-  let currentIndex = 0;
+        currentIndexTestimonials = (currentIndexTestimonials + 1) % testimonials.length;
+    }
 
-  function showNextItem() {
-    // Remove the 'active' class from the current image
-    featuredItems[currentIndex].classList.remove("active");
+    showNextTestimonial();
+    setInterval(showNextTestimonial, 3500);
 
-    // Move to the next index, looping back to the start if necessary
-    currentIndex = (currentIndex + 1) % featuredItems.length;
+    // ================== FEATURED ITEMS CAROUSEL ==================
+    const featuredItems = document.querySelectorAll("#featured-images .featured-item");
+    let currentIndex = 0;
 
-    // Add the 'active' class to the next image
+    function showNextItem() {
+        featuredItems[currentIndex].classList.remove("active");
+        currentIndex = (currentIndex + 1) % featuredItems.length;
+        featuredItems[currentIndex].classList.add("active");
+    }
+
     featuredItems[currentIndex].classList.add("active");
-  }
+    setInterval(showNextItem, 3000);
 
-  // Initially show the first image by adding 'active' class
-  featuredItems[currentIndex].classList.add("active");
+    // ================== UPDATED FEATURED ITEMS CAROUSEL ==================
+    let currentIndexFeatured = 0;
 
-  // Cycle through images every 3 seconds
-  setInterval(showNextItem, 3000);
+    function updateFeaturedImages() {
+        featuredItems.forEach((item, index) => {
+            const text = item.closest('a');
+            if (text) text.style.display = (index === currentIndexFeatured ? "block" : "none");
+
+            const image = item;
+            image.style.display = (index === currentIndexFeatured ? "block" : "none");
+        });
+    }
+
+    function showNextFeatured() {
+        currentIndexFeatured = (currentIndexFeatured + 1) % featuredItems.length;
+        updateFeaturedImages();
+    }
+
+    updateFeaturedImages();
+    setInterval(showNextFeatured, 3000);
 });
-
-// Featured Items Carousel
-const featuredItems = document.querySelectorAll("#featured-images .featured-item");
-let currentIndexFeatured = 0;
-
-function updateFeaturedImages() {
-  featuredItems.forEach((item, index) => {
-    // Hide the text inside each <a> tag by setting the text's display to 'none'
-    const text = item.closest('a');
-    if (text) text.style.display = (index === currentIndexFeatured ? "block" : "none");
-
-    // Show only the active image by setting display to block for the current image
-    const image = item;
-    image.style.display = (index === currentIndexFeatured ? "block" : "none");
-  });
-}
-
-// Show next featured image
-function showNextFeatured() {
-  currentIndexFeatured = (currentIndexFeatured + 1) % featuredItems.length; // Loop to the start
-  updateFeaturedImages();
-}
-
-// Initialize featured items carousel by showing the first image
-updateFeaturedImages();
-
-// Set up automatic cycling every 3 seconds
-setInterval(showNextFeatured, 3000);
